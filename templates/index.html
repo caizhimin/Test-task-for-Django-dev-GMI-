@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load custom_tags %}
+{% block content %}
+
+    {{ menus|custom_menu }}
+
+{% endblock %}
+
+
+{% block extra_css %}
+    <style type="text/css">
+      ul {
+          margin-left: 50px;
+      }
+
+      </style>
+{% endblock %}
+

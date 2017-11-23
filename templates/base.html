@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    {% block extra_css %}{% endblock %}
+    <title>
+        {% block title %}
+
+        {% endblock %}
+    </title>
+</head>
+<body>
+<!--导航条-->
+{% block navigation %}{% endblock %}
+{% block search_bar %}
+    <!--筛选拦-->
+{% endblock %}
+<!--正文-->
+{% block content %}{% endblock %}
+<!--页尾-->
+{% block footer %}
+
+{% endblock %}
+{% block extra_script %}{% endblock %}
+
+
+</body>
+</html>
